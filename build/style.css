@@ -1,0 +1,113 @@
+:root {
+  --bg: #ffffff;
+  --border: #ffffff;
+  --favicon-color: #6cf;
+  --radius: 0px;
+  --size: 100%; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12.5px;
+  margin: 0;
+  max-height: 100vh; }
+  body main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 100vh; }
+    body main section {
+      text-align: center;
+      width: 250px; }
+    body main .bpm-info {
+      align-items: baseline;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px; }
+      body main .bpm-info #bpm {
+        font-size: 28px;
+        font-weight: 300; }
+      body main .bpm-info label {
+        margin-left: 3px; }
+    body main .input-wrapper {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px; }
+      body main .input-wrapper input {
+        width: 100%; }
+      body main .input-wrapper label {
+        font-size: 20px; }
+      body main .input-wrapper label:first-of-type {
+        margin-right: 5px; }
+      body main .input-wrapper label:last-of-type {
+        margin-left: 5px; }
+    body main select {
+      -moz-user-select: none;
+      -ms-touch-action: manipulation;
+      -ms-user-select: none;
+      -webkit-user-select: none;
+      background-color: #fff;
+      background-image: none;
+      border-radius: 2px;
+      border: 1px solid rgba(0, 0, 0, 0.37);
+      color: rgba(0, 0, 0, 0.87);
+      cursor: pointer;
+      display: inline-block;
+      font-family: inherit;
+      font-size: 14px;
+      font-size: 14px;
+      font-weight: 500;
+      height: 36px;
+      letter-spacing: 0.03em;
+      line-height: 18px;
+      line-height: 36px;
+      margin: 10px 0 20px;
+      overflow: hidden;
+      padding: 0 26px;
+      position: relative;
+      text-align: center;
+      touch-action: manipulation;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 150px; }
+      body main select:focus {
+        outline: none; }
+    body main button {
+      background-color: #fff;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05), 0 1px 5px 0 rgba(0, 0, 0, 0.05), 0 3px 1px -2px rgba(0, 0, 0, 0.05);
+      color: rgba(0, 0, 0, 0.87);
+      cursor: pointer;
+      display: block;
+      font-size: 14px;
+      height: 56px;
+      line-height: 14px;
+      margin: 0 auto;
+      outline: 0;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      transition: .2s box-shadow ease-in;
+      width: 56px;
+      z-index: 1; }
+      body main button:hover {
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+    body main audio {
+      display: none; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Metronome.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+
+<meta name="description" content="A simple metronome.">
+<meta name="keywords" content="tynan debold, tynandebold, tynan, debold, developer, interactive developer, online tool, web app, favicon builder, favicon, idea, ideas, project, dev projec, design, ux design, ui design, ux/ui, web development, microsite">
+
+<link rel="stylesheet" href="./build/style.css">
+
+<main>
+  <section>
+    <div class="beats-wrapper">
+      <div class="bpm-info">
+        <div id="bpm">100</div>
+        <label>bpm</label>
+      </div>
+      <div class="input-wrapper">
+        <label>–</label>
+        <input type="range" min="40" max="218" value="100">
+        <label>+</label>
+      </div>
+    </div>
+    <select name="sound">
+      <option value="hi-hat">hi-hat</option>
+      <option value="kick">kick</option>
+      <option value="pop">pop</option>
+      <option value="snare">snare</option>
+    </select>
+    <button type="button">
+      <img src="./imgs/play.svg" alt="button">
+    </button>
+    <audio src='./sounds/hi-hat.mp3'></audio>
+  </section>
+</main>
+
+<script src="./build/bundle.js"></script>
