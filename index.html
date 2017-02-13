@@ -12,29 +12,27 @@
 <link rel="stylesheet" href="./build/style.css">
 
 <main>
-  <section>
-    <div class="beats-wrapper">
-      <div class="bpm-info">
-        <div id="bpm">100</div>
-        <label>bpm</label>
-      </div>
-      <div class="input-wrapper">
-        <label>–</label>
-        <input type="range" min="40" max="218" value="100">
-        <label>+</label>
-      </div>
+  <div class="beats-wrapper">
+    <div class="bpm-info">
+      <div id="bpm">100</div>
+      <label>bpm</label>
     </div>
-    <select name="sound">
-      <option value="hi-hat">hi-hat</option>
-      <option value="kick">kick</option>
-      <option value="pop">pop</option>
-      <option value="snare">snare</option>
-    </select>
-    <button type="button">
-      <img src="./imgs/play.svg" alt="button">
-    </button>
-    <audio src='./sounds/hi-hat.mp3'></audio>
-  </section>
+    <div class="input-wrapper">
+      <label>–</label>
+      <input type="range" min="40" max="218" value="100">
+      <label>+</label>
+    </div>
+  </div>
+  <select name="sound">
+    <option value="hi-hat">hi-hat</option>
+    <option value="kick">kick</option>
+    <option value="pop">pop</option>
+    <option value="snare">snare</option>
+  </select>
+  <button type="button">
+    <img src="./imgs/play.svg" alt="button">
+  </button>
+  <audio src='./sounds/hi-hat.mp3'></audio>
 </main>
 
 <script src="./build/bundle.js"></script>
