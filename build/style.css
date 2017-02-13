@@ -30,6 +30,9 @@ body {
     height: 100vh;
     text-align: center;
     width: 100%; }
+    body main section.playing {
+      border: 1px solid #ccc;
+      padding: 50px 25px; }
     body main .bpm-info {
       align-items: baseline;
       display: flex;
